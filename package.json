@@ -1,0 +1,12 @@
+{
+  "name": "contacttracing",
+  "version": "1.0.0",
+  "description": "contact tracing app",
+  "main": "index.js",
+  "author": "Michele Memoli <michele@100shapes.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
