@@ -3,5 +3,5 @@
 const graphqlApi = require('..');
 
 describe('graphql-api', () => {
-    it('needs tests');
+  it('needs tests');
 });

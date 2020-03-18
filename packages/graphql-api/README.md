@@ -1,11 +1,23 @@
-# `graphql-api`
+# Steps to run the compile and run the server
 
-> TODO: description
+- Run `yarn` or `npm install`
+- Run `yarn build` or `npm run build`
+- Run `yarn start` or `npm run start`
 
-## Usage
+## To run using docker
 
-```
-const graphqlApi = require('graphql-api');
+- Run `docker-compose -f docker-compose.yml up`
 
-// TODO: DEMONSTRATE API
-```
+## To run mongo as a container
+
+- Run `docker-compose -f docker-compose-resources.yml up`
+
+## Generate documentation for code. (uses tsconfig.json file present in your project for generating/serving docs)
+
+- Run `yarn generate-docs` or `npm run generate-docs`
+- Run `yarn serve-docs` or `npm run serve-docs` to host the generated documentation
+
+## Things to Remeber / Things to Do
+
+- While coding, please follow proper code-commenting practices.
+- **[Can refer and follow standards defined by Microsoft for the same](https://github.com/microsoft/tsdoc)**
